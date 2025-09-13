@@ -15,7 +15,6 @@
         "lint": "eslint .",
         "prepare": "simple-git-hooks"
     },
-    "dependencies": {},
     "devDependencies": {
         "@antfu/eslint-config": "^5.2.1",
         "eslint": "^9.34.0",
