@@ -46,8 +46,9 @@ export function evenNumbersWithin(destination) {
 
     // Checking for Even numners and assigning it to arrayOfEvenNumbers
     while (num <= destination) {
-    // eslint-disable-next-line no-unused-expressions
-        num % 2 === 0 ? arrayOfEvenNumbers.push(num) : null
+        if (num % 2 === 0) {
+            arrayOfEvenNumbers.push(num)
+        }
         num++
     }
 
